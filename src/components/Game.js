@@ -42,7 +42,7 @@ function Game(props) {
                 <img src={playerCard.src} alt="Player Card" />
             </div>
             <h1 className={'players you'}>{props.name}</h1>
-            <button className={'ingameButton'} onClick={handleClickNext}>
+            <button className={'inGameButton'} onClick={handleClickNext}>
                 Next
             </button>
         </div>
